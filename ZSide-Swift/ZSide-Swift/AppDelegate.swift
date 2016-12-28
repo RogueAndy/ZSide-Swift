@@ -17,7 +17,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
-        
+        let vcs = [ZSChildViewController1(), ZSChildViewController2(), ZSChildViewController3(), ZSChildViewController4(), ZSChildViewController5()]
+        let vc = ZSSideManagerViewController.initWithLeftController(leftController: ZSSideLeftViewController(), centerControllers: vcs)
+//        let vc = ZSSideManagerViewController.initWithLeftController(leftController: ZSSideLeftViewController(), centerControllers: vcs, moveDistance: 280.0)
+        vc.isCenterViewControllerMoveAlongWithLeft = true;
+        self.window?.rootViewController = vc
+        self.window?.makeKeyAndVisible()
         
         return true
     }
