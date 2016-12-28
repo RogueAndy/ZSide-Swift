@@ -37,7 +37,7 @@ class ZSChildViewController1 : ZSBaseViewController {
         view.addSubview(textLabel)
         
         textLabel.frame = CGRect.init(x: 30, y: 100, width: self.view.bounds.size.width - 60, height: 40)
-        self.view.backgroundColor = .cyan
+        self.view.backgroundColor = UIColor.init(patternImage: UIImage(named: "show1")!)
         
         let left = UIButton(type: .custom)
         left.setTitle("显示", for: .normal)
@@ -72,7 +72,7 @@ class ZSChildViewController2 : ZSBaseViewController {
         view.addSubview(textLabel)
         
         textLabel.frame = CGRect.init(x: 30, y: 100, width: self.view.bounds.size.width - 60, height: 40)
-        self.view.backgroundColor = .magenta
+        self.view.backgroundColor = UIColor.init(patternImage: UIImage(named: "show2")!)
         
         let left = UIButton(type: .custom)
         left.setTitle("显示", for: .normal)
@@ -107,7 +107,7 @@ class ZSChildViewController3 : ZSBaseViewController {
         view.addSubview(textLabel)
         
         textLabel.frame = CGRect.init(x: 30, y: 100, width: self.view.bounds.size.width - 60, height: 40)
-        self.view.backgroundColor = .yellow
+        self.view.backgroundColor = UIColor.init(patternImage: UIImage(named: "show1")!)
         
         let left = UIButton(type: .custom)
         left.setTitle("显示", for: .normal)
@@ -143,7 +143,7 @@ class ZSChildViewController4 : ZSBaseViewController {
         view.addSubview(textLabel)
         
         textLabel.frame = CGRect.init(x: 30, y: 100, width: self.view.bounds.size.width - 60, height: 40)
-        self.view.backgroundColor = .brown
+        self.view.backgroundColor = UIColor.init(patternImage: UIImage(named: "show2")!)
         
         let left = UIButton(type: .custom)
         left.setTitle("显示", for: .normal)
@@ -179,7 +179,7 @@ class ZSChildViewController5 : ZSBaseViewController {
         view.addSubview(textLabel)
         
         textLabel.frame = CGRect.init(x: 30, y: 100, width: self.view.bounds.size.width - 60, height: 40)
-        self.view.backgroundColor = .purple
+        self.view.backgroundColor = UIColor.init(patternImage: UIImage(named: "show1")!)
         
         let left = UIButton(type: .custom)
         left.setTitle("显示", for: .normal)

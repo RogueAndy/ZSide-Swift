@@ -16,7 +16,7 @@ class ZSSideLeftViewController: ZSBaseViewController, UITableViewDelegate, UITab
     override func loadInit() {
         
         super.loadInit()
-        self.view.backgroundColor = .orange
+        self.view.backgroundColor = UIColor.init(patternImage: UIImage(named: "leftimg")!)
         
     }
     
@@ -27,6 +27,7 @@ class ZSSideLeftViewController: ZSBaseViewController, UITableViewDelegate, UITab
         buttonTable = UITableView(frame: .zero)
         buttonTable.delegate = self
         buttonTable.dataSource = self
+        buttonTable.backgroundColor = .clear
         let clearView = UIView()
         clearView.backgroundColor = .clear
         buttonTable.tableFooterView = clearView
