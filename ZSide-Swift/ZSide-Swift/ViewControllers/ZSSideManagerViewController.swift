@@ -431,8 +431,16 @@ class ZSSideManagerViewController: ZSBaseViewController {
         
         }
         
+        self.centerView.removeFromSuperview()
+        self.centerView = nil
         self.centerView = selectViewController.view
-        self.setCenterViewOverRect()
+        self.view.insertSubview(self.centerView, belowSubview: self.leftView)
+        if self.isCenterViewControllerMoveAlongWithLeft == true {
+        
+            self.setCenterViewOverRect()
+        
+        }
+        
         self.transition(from: self.centerController, to: selectViewController, duration: 0, options: UIViewAnimationOptions.allowAnimatedContent, animations: {
             
         }) { (finished) in
