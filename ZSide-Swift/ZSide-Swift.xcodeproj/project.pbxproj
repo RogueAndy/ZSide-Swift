@@ -13,12 +13,12 @@
 		AB29E9691E10B0F2001E5D54 /* ZSSideManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29E9681E10B0F2001E5D54 /* ZSSideManagerViewController.swift */; };
 		AB4805221E1395990094F9D5 /* ZSBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4805211E1395990094F9D5 /* ZSBaseTableViewCell.swift */; };
 		AB4805281E139C760094F9D5 /* ZSSideLeftCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB4805271E139C760094F9D5 /* ZSSideLeftCell.swift */; };
-		AB48052A1E13AC6A0094F9D5 /* Zside.gif in Resources */ = {isa = PBXBuildFile; fileRef = AB4805291E13AC6A0094F9D5 /* Zside.gif */; };
 		ABCEE8131E0CB65E00DEA999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE8121E0CB65E00DEA999 /* AppDelegate.swift */; };
 		ABCEE8151E0CB65E00DEA999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE8141E0CB65E00DEA999 /* ViewController.swift */; };
 		ABCEE8181E0CB65E00DEA999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCEE8161E0CB65E00DEA999 /* Main.storyboard */; };
 		ABCEE81A1E0CB65E00DEA999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCEE8191E0CB65E00DEA999 /* Assets.xcassets */; };
 		ABCEE81D1E0CB65E00DEA999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCEE81B1E0CB65E00DEA999 /* LaunchScreen.storyboard */; };
+		ABE1F2821E13BD79004A6E16 /* Zside.gif in Resources */ = {isa = PBXBuildFile; fileRef = ABE1F2811E13BD79004A6E16 /* Zside.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +28,6 @@
 		AB29E9681E10B0F2001E5D54 /* ZSSideManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSSideManagerViewController.swift; sourceTree = "<group>"; };
 		AB4805211E1395990094F9D5 /* ZSBaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSBaseTableViewCell.swift; sourceTree = "<group>"; };
 		AB4805271E139C760094F9D5 /* ZSSideLeftCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSSideLeftCell.swift; sourceTree = "<group>"; };
-		AB4805291E13AC6A0094F9D5 /* Zside.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Zside.gif; sourceTree = "<group>"; };
 		ABCEE80F1E0CB65E00DEA999 /* ZSide-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZSide-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCEE8121E0CB65E00DEA999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABCEE8141E0CB65E00DEA999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +35,7 @@
 		ABCEE8191E0CB65E00DEA999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCEE81C1E0CB65E00DEA999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABCEE81E1E0CB65E00DEA999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE1F2811E13BD79004A6E16 /* Zside.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Zside.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 		ABCEE8111E0CB65E00DEA999 /* ZSide-Swift */ = {
 			isa = PBXGroup;
 			children = (
-				AB4805291E13AC6A0094F9D5 /* Zside.gif */,
+				ABE1F2811E13BD79004A6E16 /* Zside.gif */,
 				ABCEE8241E0CB74100DEA999 /* Controls */,
 				ABCEE8251E0CB74100DEA999 /* ViewControllers */,
 				ABCEE8261E0CB74100DEA999 /* Views */,
@@ -185,7 +185,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB48052A1E13AC6A0094F9D5 /* Zside.gif in Resources */,
+				ABE1F2821E13BD79004A6E16 /* Zside.gif in Resources */,
 				ABCEE81D1E0CB65E00DEA999 /* LaunchScreen.storyboard in Resources */,
 				ABCEE81A1E0CB65E00DEA999 /* Assets.xcassets in Resources */,
 				ABCEE8181E0CB65E00DEA999 /* Main.storyboard in Resources */,
