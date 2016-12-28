@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB29E9631E10A6A6001E5D54 /* ZSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29E9621E10A6A6001E5D54 /* ZSBaseViewController.swift */; };
+		AB29E9651E10A8C5001E5D54 /* ZSSideCenterChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29E9641E10A8C5001E5D54 /* ZSSideCenterChildViewController.swift */; };
+		AB29E9671E10B0E4001E5D54 /* ZSSideLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29E9661E10B0E4001E5D54 /* ZSSideLeftViewController.swift */; };
+		AB29E9691E10B0F2001E5D54 /* ZSSideManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB29E9681E10B0F2001E5D54 /* ZSSideManagerViewController.swift */; };
 		ABCEE8131E0CB65E00DEA999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE8121E0CB65E00DEA999 /* AppDelegate.swift */; };
 		ABCEE8151E0CB65E00DEA999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCEE8141E0CB65E00DEA999 /* ViewController.swift */; };
 		ABCEE8181E0CB65E00DEA999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABCEE8161E0CB65E00DEA999 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB29E9621E10A6A6001E5D54 /* ZSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSBaseViewController.swift; sourceTree = "<group>"; };
+		AB29E9641E10A8C5001E5D54 /* ZSSideCenterChildViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSSideCenterChildViewController.swift; sourceTree = "<group>"; };
+		AB29E9661E10B0E4001E5D54 /* ZSSideLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSSideLeftViewController.swift; sourceTree = "<group>"; };
+		AB29E9681E10B0F2001E5D54 /* ZSSideManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZSSideManagerViewController.swift; sourceTree = "<group>"; };
 		ABCEE80F1E0CB65E00DEA999 /* ZSide-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZSide-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCEE8121E0CB65E00DEA999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABCEE8141E0CB65E00DEA999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB29E9611E10A65D001E5D54 /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB29E9621E10A6A6001E5D54 /* ZSBaseViewController.swift */,
+			);
+			path = BaseViewControllers;
+			sourceTree = "<group>";
+		};
 		ABCEE8061E0CB65E00DEA999 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +93,10 @@
 		ABCEE8251E0CB74100DEA999 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				AB29E9611E10A65D001E5D54 /* BaseViewControllers */,
+				AB29E9641E10A8C5001E5D54 /* ZSSideCenterChildViewController.swift */,
+				AB29E9661E10B0E4001E5D54 /* ZSSideLeftViewController.swift */,
+				AB29E9681E10B0F2001E5D54 /* ZSSideManagerViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -171,6 +191,10 @@
 			files = (
 				ABCEE8151E0CB65E00DEA999 /* ViewController.swift in Sources */,
 				ABCEE8131E0CB65E00DEA999 /* AppDelegate.swift in Sources */,
+				AB29E9651E10A8C5001E5D54 /* ZSSideCenterChildViewController.swift in Sources */,
+				AB29E9671E10B0E4001E5D54 /* ZSSideLeftViewController.swift in Sources */,
+				AB29E9691E10B0F2001E5D54 /* ZSSideManagerViewController.swift in Sources */,
+				AB29E9631E10A6A6001E5D54 /* ZSBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
