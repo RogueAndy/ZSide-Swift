@@ -28,7 +28,7 @@ class ZSSideLeftCell: ZSBaseTableViewCell {
         
         super.loadLayout()
         
-        self.actionLabel.frame = CGRect.init(x: 20, y: 50, width: 150, height: 30)
+        self.actionLabel.frame = CGRect.init(x: 20, y: 5, width: 150, height: 30)
         
     }
     

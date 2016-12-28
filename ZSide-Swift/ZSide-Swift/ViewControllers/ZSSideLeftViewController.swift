@@ -72,7 +72,6 @@ class ZSSideLeftViewController: ZSBaseViewController, UITableViewDelegate, UITab
         
         }
         
-        print("~~~~~~ index.row: ", buttonNames[indexPath.row])
         cell!.actionLabel.text = buttonNames[indexPath.row]
         return cell!
         
